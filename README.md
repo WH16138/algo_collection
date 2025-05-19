@@ -34,7 +34,8 @@ A curated archive of every algorithm and data structure I’ve implemented so fa
 │   └── suffix_array.py
 └── others/
 ```
-### Naming convention
+
+Naming convention
 boj_<id>_<keyword>.py for solutions tied to a specific online-judge problem; plain <algorithm>.py for general templates.
 
 ---
