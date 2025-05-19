@@ -41,8 +41,10 @@ A curated archive of every algorithm and data structure I’ve implemented so fa
 ---
 
 ## 🙋‍♂️ Pull-request & contact policy
-This repository generally does not accept pull requests.
-For questions or feedback, please e-mail you@example.com.
+- This repository generally does not accept pull requests.
+- For questions or feedback, please e-mail hju013961@gmail.com.
+
+---
 
 ## 📜 License
 Distributed under the MIT License. See LICENSE for details.
