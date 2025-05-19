@@ -35,8 +35,8 @@ A curated archive of every algorithm and data structure I’ve implemented so fa
 └── others/
 ```
 
-'Naming convention'
-'boj_<id>_<keyword>.py for solutions tied to a specific online-judge problem; plain <algorithm>.py for general templates.'
+`Naming convention`
+`boj_<id>_<keyword>.py for solutions tied to a specific online-judge problem; plain <algorithm>.py for general templates.`
 
 ---
 
