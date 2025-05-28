@@ -1,0 +1,8 @@
+n = int(input()) # The number of groups
+stones = list(map(int,input().split())) # number of stones in each group
+
+xor = 0
+for a in stones:
+    xor = xor^a
+
+print("A" if xor else "B") # who can take the last stone
