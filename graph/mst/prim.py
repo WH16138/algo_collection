@@ -15,7 +15,7 @@ def prim(n,adj):
     mst = 0
     while min_heap:
         w,u = heapq.heappop(min_heap)
-        if visited(u):
+        if visited[u]:
             continue
         visited[u] = 1
         mst += w
