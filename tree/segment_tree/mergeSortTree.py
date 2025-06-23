@@ -25,8 +25,8 @@ class MergeSortTree:
             return len(self.tree[node]) - idx
         
         mid = (start + end) // 2
-        left = self.query_up(l, r, node*2, start, mid)
-        right = self.query_up(l, r, node*2+1, mid+1, end)
+        left = self.query_up(l, r, val, node*2, start, mid)
+        right = self.query_up(l, r, val, node*2+1, mid+1, end)
         return left + right
     
     def query_down(self, l, r, val, node=1, start=0, end=None): # count of elements < val
