@@ -1,4 +1,4 @@
-def seive_of_eratosthenes(n):
+def sieve_of_eratosthenes(n):
     prime = [True for _ in range(n+1)]
     p = 2
     while (p**2 <= n):
@@ -12,7 +12,7 @@ def seive_of_eratosthenes(n):
 if __name__ == "__main__":
     import sys
     N = int(sys.stdin.readline().strip())
-    primes = seive_of_eratosthenes(N)
+    primes = sieve_of_eratosthenes(N)
     print(" ".join(map(str, primes)))
     # Example usage: python temp/test.py < input.txt
     # where input.txt contains a single integer N
