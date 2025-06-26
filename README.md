@@ -46,5 +46,10 @@ A curated archive of every algorithm and data structure I’ve implemented so fa
 
 ---
 
+## ✍️ Note on Documentation
+Some code comments were assisted by generative AI (e.g., ChatGPT) to improve readability and maintain consistency.
+
+---
+
 ## 📜 License
 Distributed under the MIT License. See LICENSE for details.
