@@ -42,7 +42,7 @@ def euler_phi(n):
     Returns:
         int: The value of φ(n)
     """
-    result = 1
+    result = 1 # 폴라드로와 밀러라빈을 이용해 인수를 바로 찾으면 더 빠름
     for p in sieve_of_eratosthenes(int(n**0.5) + 1):
         if n % p == 0:
             a = 0
